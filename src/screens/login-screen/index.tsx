@@ -189,6 +189,7 @@ export default function LoginScreen() {
           </Text>
           <TouchableOpacity>
             <Text style={{color: COLORS.primary, fontFamily: customFonts.bold}}>
+              {' '}
               Sign Up
             </Text>
           </TouchableOpacity>
@@ -226,6 +227,7 @@ const styles = StyleSheet.create({
     width: WD(80),
     color: COLORS.darkgray,
     fontSize: WD(4),
+    paddingVertical: WD(2),
   },
   inputSection: {
     marginTop: WD(12),
@@ -246,12 +248,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     width: WD(85),
     height: HD(6),
-    shadowColor: '#808080',
+    shadowColor: '#CCCCCC',
     shadowOffset: {
       width: 0,
       height: 3,
     },
-    shadowRadius: 20,
+    shadowRadius: 10,
     shadowOpacity: 1.0,
     elevation: 20,
   },
