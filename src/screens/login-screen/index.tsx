@@ -156,6 +156,7 @@ export default function LoginScreen() {
             style={styles.input}
             placeholder="Email"
             underlineColorAndroid="transparent"
+            placeholderTextColor={COLORS.darkgray}
             value={email}
             onChangeText={text => setEmail(text)}
           />
@@ -165,6 +166,7 @@ export default function LoginScreen() {
           <TextInput
             style={styles.input}
             placeholder="Password"
+            placeholderTextColor={COLORS.darkgray}
             underlineColorAndroid="transparent"
             value={password}
             onChangeText={text => setPassword(text)}
